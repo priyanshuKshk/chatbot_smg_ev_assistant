@@ -1,0 +1,203 @@
+{
+  "MODEL_SPECIFICATIONS": {
+    "models": [
+      {
+        "MODEL_NAME": "GENZ",
+        "PRODUCT": "ELECTRIC 2 WHEELER",
+        "PLANT_NAME": "HOSHIARPUR",
+        "AREA_SERVED": "PAN INDIA",
+        "LAUNCH_YEAR": "",
+        "MAX_SPEED": "100KM/HR",
+        "MAX_LOADING_CAPACITY": "50KGS",
+        "MOTOR_POWER": "5.5KW",
+        "MAX_TORQUE": "22nm",
+        "WEIGHT_VEHICLES": "250KGS",
+        "WEIGHT_KERB": "50KGS",
+        "WEIGHT_BATTERY": "2KGS",
+        "BATTERY_TYPE": "LITHIUM",
+        "CHARGE_TIME": "3-4HRS",
+        "BATTERY_CAPACITY": "3.7KW",
+        "BATTERY_LIFE": "5YEARS",
+        "REMOVABLE_BATTERY": "YES",
+        "BATTERY_IP_RATINGS": "IP67",
+        "CHARGER_AND_TYPE": "TYPE 6(IEC 62196-6)",
+        "FRONT_TYRE_SIZE": "90/90",
+        "FRONT_TYRE_PRESSURE": "34",
+        "TURNING_RADIUS": "18.7",
+        "CONTROLLOR": "Yes",
+        "GRADIENT": "12",
+        "DRIVE_TYPE": "Belt Drive Transmission System",
+        "CHASIS": "METAL ALUMINIUM",
+        "SUSPENSION": "FRONT WHEEL",
+        "BOOT_SPACE": "22L",
+        "START": "PUSH BUTTON/KEY",
+        "POWER_METHOD": "",
+        "LENGTH_MM": "1345mm",
+        "WIDTH_MM": "65mm",
+        "HEIGHT_MM": "989mm",
+        "WHEEL_BASE_MM": "789mm",
+        "GROUND_CLEARANCE": "156mm",
+        "RUN_DISTANCE_CHARGE_OR_RANGE": "90km",
+        "BRAKE_SYSTEM_WARRANTY": "3 years"
+      },
+      {
+        "MODEL_NAME": "GENZ+",
+        "PRODUCT": "ELECTRIC 2 WHEELER",
+        "PLANT_NAME": "HOSHIARPUR",
+        "AREA_SERVED": "PAN INDIA",
+        "LAUNCH_YEAR": "",
+        "MAX_SPEED": "90KM/HR",
+        "MAX_LOADING_CAPACITY": "45KGS",
+        "MOTOR_POWER": "5.5KW",
+        "MAX_TORQUE": "18nm",
+        "WEIGHT_VEHICLES": "210KGS",
+        "WEIGHT_KERB": "35KGS",
+        "WEIGHT_BATTERY": "2KGS",
+        "BATTERY_TYPE": "LITHIUM",
+        "CHARGE_TIME": "3-4HRS",
+        "BATTERY_CAPACITY": "3.7KW",
+        "BATTERY_LIFE": "3YEARS",
+        "REMOVABLE_BATTERY": "NO",
+        "BATTERY_IP_RATINGS": "IP67",
+        "CHARGER_AND_TYPE": "TYPE 6(IEC 62196-6)",
+        "FRONT_TYRE_SIZE": "90/100",
+        "FRONT_TYRE_PRESSURE": "34",
+        "TURNING_RADIUS": "16.8",
+        "CONTROLLOR": "Yes",
+        "GRADIENT": "7",
+        "DRIVE_TYPE": "Belt Drive Transmission System",
+        "CHASIS": "METAL ALUMINIUM",
+        "SUSPENSION": "FRONT WHEEL",
+        "BOOT_SPACE": "18L",
+        "START": "KEY",
+        "POWER_METHOD": "",
+        "LENGTH_MM": "1286mm",
+        "WIDTH_MM": "56mm",
+        "HEIGHT_MM": "976mm",
+        "WHEEL_BASE_MM": "675mm",
+        "GROUND_CLEARANCE": "134mm",
+        "RUN_DISTANCE_CHARGE_OR_RANGE": "60km",
+        "BRAKE_SYSTEM_WARRANTY": "2years"
+      },
+      {
+        "MODEL_NAME": "GEN EV",
+        "PRODUCT": "ELECTRIC 2 WHEELER",
+        "PLANT_NAME": "HOSHIARPUR",
+        "AREA_SERVED": "PAN INDIA",
+        "LAUNCH_YEAR": "",
+        "MAX_SPEED": "100KM/HR",
+        "MAX_LOADING_CAPACITY": "55KGS",
+        "MOTOR_POWER": "5.5KW",
+        "MAX_TORQUE": "22nm",
+        "WEIGHT_VEHICLES": "286KGS",
+        "WEIGHT_KERB": "58KGS",
+        "WEIGHT_BATTERY": "2KGS",
+        "BATTERY_TYPE": "LITHIUM",
+        "CHARGE_TIME": "3-4HRS",
+        "BATTERY_CAPACITY": "3.7KW",
+        "BATTERY_LIFE": "5YEARS",
+        "REMOVABLE_BATTERY": "YES",
+        "BATTERY_IP_RATINGS": "IP67",
+        "CHARGER_AND_TYPE": "TYPE 6(IEC 62196-6)",
+        "FRONT_TYRE_SIZE": "90/90",
+        "FRONT_TYRE_PRESSURE": "34",
+        "TURNING_RADIUS": "19.2",
+        "CONTROLLOR": "Yes",
+        "GRADIENT": "13",
+        "DRIVE_TYPE": "Belt Drive Transmission System",
+        "CHASIS": "METAL ALUMINIUM",
+        "SUSPENSION": "FRONT WHEEL",
+        "BOOT_SPACE": "24L",
+        "START": "PUSH BUTTON/KEY",
+        "POWER_METHOD": "",
+        "LENGTH_MM": "1456mm",
+        "WIDTH_MM": "72mm",
+        "HEIGHT_MM": "998mm",
+        "WHEEL_BASE_MM": "878mm",
+        "GROUND_CLEARANCE": "164mm",
+        "RUN_DISTANCE_CHARGE_OR_RANGE": "100km",
+        "BRAKE_SYSTEM_WARRANTY": "3 years"
+      }
+    ]
+  },
+  "FINANCING_COMPANIES": {
+    "companies": [
+      {
+        "COMPANY_NAME": "BAJAJ ALLIANZ",
+        "WEBSITE": "https://www.bajajallianz.com/general-insurance.html",
+        "LOGO": ""
+      },
+      {
+        "COMPANY_NAME": "CHOLA FINANCE",
+        "WEBSITE": "https://www.cholamandalam.com/",
+        "LOGO": ""
+      },
+      {
+        "COMPANY_NAME": "MUFIN FINANCE",
+        "WEBSITE": "www.mufingreenfinance.com/evloans",
+        "LOGO": ""
+      },
+      {
+        "COMPANY_NAME": "ORANGE FINANCE",
+        "WEBSITE": "https://orangeretailfinance.com/",
+        "LOGO": ""
+      },
+      {
+        "COMPANY_NAME": "REVFIN FINNACE",
+        "WEBSITE": "www.revfin.in",
+        "LOGO": ""
+      },
+      {
+        "COMPANY_NAME": "SHRIRAM FINANCE",
+        "WEBSITE": "https://www.shriramfinance.in/?utm_source=gmb&utm_medium=organic&utm_campaign=sulekhapromanage-shriram-finance",
+        "LOGO": ""
+      },
+      {
+        "COMPANY_NAME": "SK FINANCE",
+        "WEBSITE": "https://www.skfin.in/",
+        "LOGO": ""
+      }
+    ]
+  },
+  "INSURANCE_COMPANIES": {
+    "companies": [
+      {
+        "COMPANY_NAME": "BAJAJ ALLIANZ",
+        "WEBSITE": "https://www.bajajallianz.com/general-insurance.html"
+      },
+      {
+        "COMPANY_NAME": "DIGIT INSURANCE",
+        "WEBSITE": "https://www.godigit.com/"
+      },
+      {
+        "COMPANY_NAME": "ACKO INSURANCE",
+        "WEBSITE": "https://search.app/X2K4jsu3EnL2ngYcA"
+      },
+      {
+        "COMPANY_NAME": "SHRIRAM INSURANCE",
+        "WEBSITE": "www.shriramgi.com/ev-insurance"
+      },
+      {
+        "COMPANY_NAME": "REVFIN",
+        "WEBSITE": "www.revfin.in"
+      },
+      {
+        "COMPANY_NAME": "United India Insurance Company Limited",
+        "WEBSITE": "https://uiic.co.in/branch-locator"
+      },
+      {
+        "COMPANY_NAME": "Square Insurance Brokers Private Limited",
+        "WEBSITE": "https://www.squareinsurance.in/"
+      },
+      {
+        "COMPANY_NAME": "MAGMA GENERAL INSURANCE LIMITED",
+        "WEBSITE": "https://www.magmahdi.com/"
+      }
+    ]
+  },
+  "SMG_ACCESSORIES": {
+    "header": "SMG ELECTRIC SCOOTERS LTD ACCESSORIES SECTION",
+    "customer_relation": "CUSTOMER RELEATION MANAGEMENT"
+  },
+  "SMG_E_FLUIDS": null
+}
