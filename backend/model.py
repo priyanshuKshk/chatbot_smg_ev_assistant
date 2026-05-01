@@ -16,7 +16,7 @@ if API_KEY:
     genai.configure(api_key=API_KEY)
     #print(" GOOGLE_API_KEY loaded successfully.")
 else:
-    raise Exception("❌ GOOGLE_API_KEY not found! Please check your .env file.")
+    raise Exception(" GOOGLE_API_KEY not found! Please check your .env file.")
 
 gemini_model = genai.GenerativeModel("gemini-3-flash-preview")
 
