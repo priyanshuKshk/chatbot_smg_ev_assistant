@@ -18,7 +18,7 @@ if API_KEY:
 else:
     raise Exception("❌ GOOGLE_API_KEY not found! Please check your .env file.")
 
-gemini_model = genai.GenerativeModel("gemini-1.5-pro-latest")
+gemini_model = genai.GenerativeModel("gemini-3-flash-preview")
 
 # Load multiple CSVs
 DATASET_FOLDER = os.path.join(os.path.dirname(__file__) ,"dataset")
