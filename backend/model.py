@@ -58,7 +58,8 @@ else:
 
 def ask_bot(user_query):
     try:
-        if not corpus_embeddings:
+        # Safety check
+        if len(corpus_embeddings) == 0:
             return "No data available. Please check dataset loading."
 
         # Normalize query
