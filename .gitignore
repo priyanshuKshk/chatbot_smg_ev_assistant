@@ -11,4 +11,3 @@ __pycache__/
 
 # If using virtual env locally inside backend
 .venv/
-dataset

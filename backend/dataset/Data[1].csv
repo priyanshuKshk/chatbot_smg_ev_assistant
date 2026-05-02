@@ -1,0 +1,18 @@
+## Company Info
+Company Name,Headquarters,Service Area
+SMG Electric Scooters Ltd,Hoshiarpur, India,PAN India
+
+## Electric Scooter Models
+Model Name,Category,Plant,Launch Year,Max Speed (km/h),Range (km),Loading Capacity (kg),Motor Power (kW),Torque (Nm),Battery Type,Battery Capacity (kW),Battery Life (Years),Battery Removable,Battery IP Rating,Battery Weight (kg),Battery Charge Time (hours),Vehicle Weight (kg),Kerb Weight (kg),Front Tyre Size,Front Tyre Pressure (PSI),Controller,Gradient (°),Drive Type,Chassis,Suspension,Boot Space (L),Start Method,Length (mm),Width (mm),Height (mm),Wheelbase (mm),Ground Clearance (mm),Turning Radius (m),Charger Type,Brake Warranty (Years)
+GENZ,Electric 2 Wheeler,Hoshiarpur,,100,90,50,5.5,22,Lithium,3.7,5,true,IP67,2,3-4,250,50,90/90,34,true,12,Belt Drive Transmission System,Metal Aluminium,Front Wheel,22,Push Button / Key,1345,65,989,789,156,18.7,Type 6 (IEC 62196-6),3
+GENZ+,Electric 2 Wheeler,Hoshiarpur,,90,60,45,5.5,18,Lithium,3.7,3,false,IP67,2,3-4,210,35,90/100,34,true,7,Belt Drive Transmission System,Metal Aluminium,Front Wheel,18,Key,1286,56,976,675,134,16.8,Type 6 (IEC 62196-6),2
+GEN EV,Electric 2 Wheeler,Hoshiarpur,,100,100,55,5.5,22,Lithium,3.7,5,true,IP67,2,3-4,286,58,90/90,34,true,13,Belt Drive Transmission System,Metal Aluminium,Front Wheel,24,Push Button / Key,1456,72,998,878,164,19.2,Type 6 (IEC 62196-6),3
+
+
+## Accessories
+Section,Note
+Accessories Section,"Customer Relation Management team can assist with all accessory-related queries."
+
+## E-Fluids
+Available,Note
+false,"E-fluids information is currently unavailable."
