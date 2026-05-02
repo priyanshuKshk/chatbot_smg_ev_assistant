@@ -10,7 +10,7 @@ from flask_cors import CORS
 CORS(app, resources={r"/*": {
     "origins": [
         "http://localhost:3000", 
-        "https://chatbot-smg-ev-assistant-cyd9.vercel.app/",
+        "https://chatbot-smg-ev-assistant-cyd9.vercel.app",
         "https://chatbot-smg-ev-assistant-1.onrender.com"
     ],
     "allow_headers": ["Content-Type", "Authorization"],  # Adjust headers if needed
