@@ -7,16 +7,7 @@ app = Flask(__name__, static_folder="../frontend/build", static_url_path="/")
 
 from flask_cors import CORS
 
-CORS(app, resources={r"/*": {
-    "origins": [
-        "http://localhost:3000", 
-        "https://chatbot-smg-ev-assistant-cyd9.vercel.app",
-        "https://chatbot-smg-ev-assistant-1.onrender.com"
-    ],
-    "allow_headers": ["Content-Type", "Authorization"],  # Adjust headers if needed
-    "expose_headers": ["Content-Type"],  # Expose necessary headers
-    "supports_credentials": True  # Allow credentials if you're using them (cookies, authorization)
-}})
+CORS(app)
 
 # Register Blueprint for chatbot API
 app.register_blueprint(chatbot_route)
