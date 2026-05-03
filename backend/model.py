@@ -1,16 +1,20 @@
 import os
+from dotenv import load_dotenv
 import pandas as pd
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
-import google.generativeai as genai
+from google import genai
+
+
+load_dotenv()
 
 API_KEY = os.getenv("GOOGLE_API_KEY")
 
 if not API_KEY:
-    raise Exception("GOOGLE_API_KEY not found! Set it in Render environment.")
+    raise Exception("GOOGLE_API_KEY not found!")
 
-genai.configure(api_key=API_KEY)
-gemini_model = genai.GenerativeModel("gemini-3-flash-preview")
+client = genai.Client(api_key=API_KEY)
+
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATASET_FOLDER = os.path.join(BASE_DIR, "dataset")
@@ -47,27 +51,24 @@ for file in csv_files:
 
 print("Total data loaded:", len(text_data))
 
+
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
 if len(text_data) > 0:
     corpus_embeddings = model.encode(text_data, show_progress_bar=True)
 else:
     corpus_embeddings = []
-    print("⚠️ No data loaded, embeddings empty")
+    print("⚠️ No data loaded")
 
 
 def ask_bot(user_query):
     try:
-        # Safety check
         if len(corpus_embeddings) == 0:
-            return "No data available. Please check dataset loading."
+            return "No data available. Please check dataset."
 
-        # Normalize query
         normalized_query = user_query.strip().lower()
 
-        # -------------------------------
-        # 💬 CUSTOM RESPONSES
-        # -------------------------------
+        # Custom responses
         if normalized_query in [
             "who are you", "what is your name",
             "tell me about yourself", "introduce yourself"
@@ -79,19 +80,14 @@ def ask_bot(user_query):
         ]:
             return "SMG Electric Vehicles, a provider of EV fluids, greases, and services in India."
 
-        # -------------------------------
-        # 🔍 EMBEDDING SEARCH
-        # -------------------------------
+        # Embedding search
         query_embedding = model.encode([user_query])
-
         similarities = cosine_similarity(query_embedding, corpus_embeddings)[0]
         top_indices = similarities.argsort()[-3:][::-1]
 
         matched_context = "\n".join([text_data[i] for i in top_indices])
 
-        # -------------------------------
-        # 🧠 GEMINI PROMPT
-        # -------------------------------
+        # Gemini prompt
         prompt = f"""
 You are SMG-EV Assistant. Answer clearly and professionally.
 
@@ -105,7 +101,11 @@ Answer:
 """
 
         print("🚀 Sending to Gemini...")
-        response = gemini_model.generate_content(prompt)
+
+        response = client.models.generate_content(
+            model="gemini-3-flash-preview",
+            contents=prompt
+        )
 
         return response.text.strip()
 

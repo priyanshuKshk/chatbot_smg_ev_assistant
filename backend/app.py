@@ -1,11 +1,9 @@
 from flask import Flask, send_from_directory
 from flask_cors import CORS
 from routes import chatbot_route
+from model import ask_bot
 import os
-
-app = Flask(__name__, static_folder="../frontend/build", static_url_path="/")
-
-from flask_cors import CORS
+app = Flask(__name__)
 
 CORS(app)
 
@@ -13,12 +11,8 @@ CORS(app)
 app.register_blueprint(chatbot_route)
 
 @app.route("/")
-def serve_react():
-    return send_from_directory(app.static_folder, "index.html")
-
-@app.errorhandler(404)
-def not_found(e):
-    return send_from_directory(app.static_folder, "index.html")
+def home():
+    return {"message": "Backend running"}
 
 # if __name__ == "__main__":
 #     app.run(debug=True)
